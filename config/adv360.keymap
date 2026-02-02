@@ -48,11 +48,11 @@
         keypad {
             display-name = "Kp";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &trans     &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 4      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 4
+&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 3
             >;
         };
 
@@ -70,7 +70,7 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &mo 1                                       &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans                                      &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
@@ -81,33 +81,33 @@
         Symbols {
             display-name = "symbols";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2          &kp N3                &kp N4                 &kp N5             &mo 1                                                    &mo 3      &kp N6         &kp N7           &kp N8            &kp N9       &kp N0        &kp MINUS
+&kp EQUAL  &kp N1     &kp N2          &kp N3                &kp N4                 &kp N5             &trans                                                   &trans     &kp N6         &kp N7           &kp N8            &kp N9       &kp N0        &kp MINUS
 &kp TAB    &kp TILDE  &kp SQT         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &none                                                    &none      &kp FSLH       &kp ASTERISK     &kp PLUS          &kp PERCENT  &kp DOLLAR    &kp BSLH
 &kp ESC    &kp MINUS  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON      &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp COLON      &kp LESS_THAN    &kp GREATER_THAN  &kp EQUAL    &kp CARET     &kp SQT
 &kp LSHFT  &kp PIPE   &kp AMPERSAND   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE                               &kp HOME      &kp PG_UP                        &kp BACKSLASH  &kp EXCLAMATION  &kp AT            &kp HASH     &kp QUESTION  &kp RSHFT
-&mo 4      &kp GRAVE  &kp CAPS        &kp LEFT              &kp RIGHT                                 &kp BSPC  &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp UP           &kp DOWN          &kp LBKT     &kp RBKT      &mo 4
+&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT              &kp RIGHT                                 &kp BSPC  &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp UP           &kp DOWN          &kp LBKT     &kp RBKT      &mo 3
             >;
         };
 
         Numbers {
             display-name = "Numbers";
             bindings = <
-&kp EQUAL  &kp F1     &kp F2          &kp F3      &kp F4       &kp F5             &mo 1                                                  &mo 3   &kp F6     &kp F7  &kp F8    &kp N9    &kp F10       &kp MINUS
+&kp EQUAL  &kp F1     &kp F2          &kp F3      &kp F4       &kp F5             &trans                                                 &trans  &kp F6     &kp F7  &kp F8    &kp N9    &kp F10       &kp MINUS
 &kp TAB    &kp TILDE  &kp SQT         &bl BL_DEC  &kp C_NEXT   &kp C_VOLUME_UP    &none                                                  &none   &kp COMMA  &kp N7  &kp N8    &kp N9    &kp DOLLAR    &kp BSLH
 &kp ESC    &kp MINUS  &kp UNDERSCORE  &bl BL_TOG  &kp C_PAUSE  &kp K_MUTE         &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp DOT    &kp N4  &kp N5    &kp N6    &kp CARET     &kp SQT
 &kp LSHFT  &kp PIPE   &kp AMPERSAND   &bl BL_DEC  &kp C_PREV   &kp C_VOLUME_DOWN                     &kp HOME      &kp PG_UP                     &kp N0     &kp N1  &kp N2    &kp N3    &kp QUESTION  &kp RSHFT
-&mo 4      &kp GRAVE  &kp CAPS        &kp LEFT    &kp RIGHT                       &trans  &trans     &kp END       &kp PG_DN  &trans     &trans             &kp UP  &kp DOWN  &kp LBKT  &kp RBKT      &mo 4
+&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT    &kp RIGHT                       &trans  &trans     &kp END       &kp PG_DN  &trans     &trans             &kp UP  &kp DOWN  &kp LBKT  &kp RBKT      &mo 3
             >;
         };
 
         Cursor {
             display-name = "cursor";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5         &mo 1                                                    &mo 3      &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp MINUS
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5         &trans                                                   &trans     &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp MINUS
 &kp TAB    &trans     &kp W     &kp E     &trans     &trans         &none                                                    &none      &kp Y   &kp RS(U)  &kp U     &kp O     &kp P     &trans
 &kp ESC    &kp LEFT   &kp UP    &kp DOWN  &kp RIGHT  &kp SEMICOLON  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &trans  &kp H      &kp J     &kp K     &kp L     &kp SQT
 &kp LSHFT  &trans     &kp X     &kp C     &kp V      &kp B                               &kp HOME      &kp PG_UP                        &trans  &kp RS(D)  &kp D     &trans    &trans    &kp RSHFT
-&mo 4      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                 &kp BSPC  &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP     &kp DOWN  &kp LBKT  &kp RBKT  &mo 4
+&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                 &kp BSPC  &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP     &kp DOWN  &kp LBKT  &kp RBKT  &mo 3
             >;
         };
     };
