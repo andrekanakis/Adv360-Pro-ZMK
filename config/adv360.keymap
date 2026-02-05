@@ -73,6 +73,11 @@
             bindings = <&kp RIGHT_GUI>;
             key-positions = <44 41>;
         };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <66 69>;
+        };
     };
 
     keymap {
