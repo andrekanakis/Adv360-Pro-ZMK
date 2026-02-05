@@ -37,11 +37,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1      &kp N2          &kp N3       &kp N4        &kp N5  &mo 1                                                                               &mo 2      &kp N6  &kp N7        &kp N8       &kp N9      &kp N0              &kp MINUS
-&kp TAB    &kp Q       &kp W           &kp E        &kp R         &kp T   &none                                                                               &none      &kp Y   &kp U         &kp I        &kp O       &kp P               &kp BSLH
-&kp ESC    &hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LSHIFT F  &kp G   &none                  &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL          &none      &kp H   &hm RSHIFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z       &kp X           &kp C        &kp V         &kp B                                           &kp HOME      &kp PG_UP                                &kp N   &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp RSHFT
-&mo 3      &kp GRAVE   &kp CAPS        &kp LEFT     &kp RIGHT             &thumb_lt 4 BACKSPACE  &thumb_lt 5 TAB  &kp END       &kp PG_DN  &thumb_lt 5 ENTER  &kp SPACE          &kp DOWN      &kp UP       &kp LBKT    &kp RBKT            &mo 3
+&kp EQUAL  &kp N1      &kp N2          &kp N3       &kp N4        &kp N5  &mo 1                                                                       &mo 2      &kp N6  &kp N7        &kp N8       &kp N9      &kp N0              &kp MINUS
+&kp TAB    &kp Q       &kp W           &kp E        &kp R         &kp T   &none                                                                       &none      &kp Y   &kp U         &kp I        &kp O       &kp P               &kp BSLH
+&kp ESC    &hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LSHIFT F  &kp G   &none          &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL          &none      &kp H   &hm RSHIFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z       &kp X           &kp C        &kp V         &kp B                                   &kp HOME      &kp PG_UP                                &kp N   &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp RSHFT
+&mo 3      &kp GRAVE   &kp CAPS        &kp LEFT     &kp RIGHT             &kp BACKSPACE  &thumb_lt 5 TAB  &kp END       &kp PG_DN  &thumb_lt 4 ENTER  &kp SPACE          &kp DOWN      &kp UP       &kp LBKT    &kp RBKT            &mo 3
             >;
         };
 
@@ -85,7 +85,7 @@
 &kp TAB    &kp TILDE  &kp GRAVE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &none                                                    &none      &kp BACKSLASH  &kp ASTERISK     &kp PLUS          &kp PERCENT  &kp DOLLAR    &kp BSLH
 &kp ESC    &kp MINUS  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON      &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp COLON      &kp LESS_THAN    &kp GREATER_THAN  &kp EQUAL    &kp CARET     &kp SQT
 &kp LSHFT  &kp PIPE   &kp AMPERSAND   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SINGLE_QUOTE                        &kp HOME      &kp PG_UP                        &kp SLASH      &kp EXCLAMATION  &kp AT            &kp HASH     &kp QUESTION  &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT              &kp RIGHT                                 &kp BSPC  &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp DOWN         &kp UP            &kp LBKT     &kp RBKT      &mo 3
+&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT              &kp RIGHT                                 &kp BSPC  &trans     &kp END       &kp PG_DN  &trans     &kp SPACE                 &kp DOWN         &kp UP            &kp LBKT     &kp RBKT      &mo 3
             >;
         };
 
@@ -96,7 +96,7 @@
 &kp TAB    &kp TILDE  &kp SQT         &bl BL_INC  &kp C_NEXT        &kp C_VOLUME_UP    &none                                                         &none      &kp COMMA  &kp N7    &kp N8  &kp N9    &kp DOLLAR    &kp BSLH
 &kp ESC    &kp MINUS  &kp UNDERSCORE  &bl BL_TOG  &kp C_PLAY_PAUSE  &kp C_MUTE         &none          &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp DOT    &kp N4    &kp N5  &kp N6    &kp CARET     &kp SQT
 &kp LSHFT  &kp PIPE   &kp AMPERSAND   &bl BL_DEC  &kp C_PREV        &kp C_VOLUME_DOWN                            &kp HOME      &kp PG_UP                        &kp N0     &kp N1    &kp N2  &kp N3    &kp QUESTION  &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT    &kp RIGHT                            &kp BACKSPACE  &kp TAB    &kp END       &kp PG_DN  &trans     &kp SPACE             &kp DOWN  &kp UP  &kp LBKT  &kp RBKT      &mo 3
+&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT    &kp RIGHT                            &kp BACKSPACE  &trans     &kp END       &kp PG_DN  &trans     &kp SPACE             &kp DOWN  &kp UP  &kp LBKT  &kp RBKT      &mo 3
             >;
         };
     };
