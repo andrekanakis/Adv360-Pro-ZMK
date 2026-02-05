@@ -31,17 +31,61 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Lshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <32 31>;
+        };
+
+        Lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <31 30>;
+        };
+
+        Lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <30 29>;
+        };
+
+        Lgui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <29 32>;
+        };
+
+        Rshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <41 42>;
+        };
+
+        Rctrl {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <42 43>;
+        };
+
+        Ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <43 44>;
+        };
+
+        Rgui {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <44 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1      &kp N2          &kp N3       &kp N4        &kp N5  &mo 1                                                                       &mo 2      &kp N6  &kp N7        &kp N8       &kp N9      &kp N0              &kp MINUS
-&kp TAB    &kp Q       &kp W           &kp E        &kp R         &kp T   &none                                                                       &none      &kp Y   &kp U         &kp I        &kp O       &kp P               &kp BSLH
-&kp ESC    &hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LSHIFT F  &kp G   &none          &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL          &none      &kp H   &hm RSHIFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z       &kp X           &kp C        &kp V         &kp B                                   &kp HOME      &kp PG_UP                                &kp N   &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp RSHFT
-&mo 3      &kp GRAVE   &kp CAPS        &kp LEFT     &kp RIGHT             &kp BACKSPACE  &thumb_lt 5 TAB  &kp END       &kp PG_DN  &thumb_lt 4 ENTER  &kp SPACE          &kp DOWN      &kp UP       &kp LBKT    &kp RBKT            &mo 3
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &mo 1                                                                       &mo 2      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0         &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                       &none      &kp Y   &kp U     &kp I      &kp O     &kp P          &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none          &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL          &none      &kp H   &kp J     &kp K      &kp L     &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                   &kp HOME      &kp PG_UP                                &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
+&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &thumb_lt 5 TAB  &kp END       &kp PG_DN  &thumb_lt 4 ENTER  &kp SPACE          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT       &mo 3
             >;
         };
 
