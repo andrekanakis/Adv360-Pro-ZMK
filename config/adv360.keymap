@@ -99,16 +99,5 @@
 &mo 3      &kp GRAVE  &kp CAPS        &kp LEFT    &kp RIGHT                            &kp BACKSPACE  &kp TAB    &kp END       &kp PG_DN  &trans     &kp SPACE             &kp DOWN  &kp UP  &kp LBKT  &kp RBKT      &mo 3
             >;
         };
-
-        Cursor {
-            display-name = "cursor";
-            bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5         &trans                                                   &trans     &kp N6  &kp N7     &kp N8  &kp N9    &kp N0    &kp MINUS
-&kp TAB    &trans     &kp W     &kp E     &trans     &trans         &none                                                    &none      &kp Y   &kp RC(U)  &kp U   &kp O     &kp P     &trans
-&kp ESC    &kp LEFT   &kp UP    &kp DOWN  &kp RIGHT  &kp SEMICOLON  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &trans  &kp H      &kp J   &kp K     &kp L     &kp SQT
-&kp LSHFT  &trans     &kp X     &kp C     &kp V      &kp B                               &kp HOME      &kp PG_UP                        &trans  &kp RC(D)  &kp D   &trans    &trans    &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                 &kp BSPC  &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT  &mo 3
-            >;
-        };
     };
 };
