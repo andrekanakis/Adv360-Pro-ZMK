@@ -130,11 +130,11 @@
         Symbols {
             display-name = "symbols";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2          &kp N3                &kp N4                 &kp N5             &trans                                                   &trans     &kp N6         &kp N7           &kp N8            &kp N9       &kp N0        &kp MINUS
-&kp TAB    &kp TILDE  &kp GRAVE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &none                                                    &none      &kp BACKSLASH  &kp ASTERISK     &kp PLUS          &kp PERCENT  &kp DOLLAR    &kp BSLH
-&kp ESC    &kp MINUS  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON      &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp COLON      &kp LESS_THAN    &kp GREATER_THAN  &kp EQUAL    &kp CARET     &kp SQT
-&kp LSHFT  &kp PIPE   &kp AMPERSAND   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SINGLE_QUOTE                        &kp HOME      &kp PG_UP                        &kp SLASH      &kp EXCLAMATION  &kp AT            &kp HASH     &kp QUESTION  &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT              &kp RIGHT                                 &kp BSPC  &trans     &kp END       &kp PG_DN  &trans     &kp SPACE                 &kp DOWN         &kp UP            &kp LBKT     &kp RBKT      &mo 3
+&kp EQUAL  &kp N1     &kp N2          &kp N3                &kp N4                 &kp N5             &trans                                                   &trans     &kp N6         &kp N7           &kp N8        &kp N9         &kp N0            &kp MINUS
+&kp TAB    &kp TILDE  &kp GRAVE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &none                                                    &none      &kp BACKSLASH  &kp ASTERISK     &kp PLUS      &kp HASH       &kp AT_SIGN       &kp BSLH
+&kp ESC    &kp MINUS  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON      &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp COLON      &kp LCTRL        &kp DOLLAR    &kp EQUAL      &kp PERCENT       &kp SQT
+&kp LSHFT  &kp PIPE   &kp AMPERSAND   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SINGLE_QUOTE                        &kp HOME      &kp PG_UP                        &kp SLASH      &kp EXCLAMATION  &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN  &kp RSHFT
+&mo 3      &kp GRAVE  &kp CAPS        &kp LEFT              &kp RIGHT                                 &kp BSPC  &trans     &kp END       &kp PG_DN  &trans     &kp SPACE                 &kp DOWN         &kp UP        &kp LBKT       &kp RBKT          &mo 3
             >;
         };
 
